@@ -35,7 +35,7 @@
           "url": "https://minecraftold.github.io/maven/net/minecraft/launchwrapper/1.3/launchwrapper-1.3.jar"
         }
       },
-      "name": "cn.frish2021:launchwrapper:1.3"
+      "name": "net.minecraft:launchwrapper:1.3"
     },
     {
       "downloads": {
