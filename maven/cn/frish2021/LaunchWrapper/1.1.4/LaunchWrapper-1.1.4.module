@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.frish2021",
+    "module": "LaunchWrapper",
+    "version": "1.1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "LaunchWrapper-1.1.4.jar",
+          "url": "LaunchWrapper-1.1.4.jar",
+          "size": 18011,
+          "sha512": "dc169f81af8a9485e02490ea3f7ecabfe161c75b4b91affccf0784ba6dd187db2b43f4c3ba16aee72bd135267df479cef4e97720830dbc10f426512b49dcaffd",
+          "sha256": "b4757cc751f67d9c3378d7cdcbbe3d0ff5b1cf54d13d2af7b7f1a5fcc7202c5e",
+          "sha1": "c6f51b5d6a1c45b0c79da103f313877b688ddbac",
+          "md5": "38b3a51f284fa2d7758c192ab8a7115e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.sf.jopt-simple",
+          "module": "jopt-simple",
+          "version": {
+            "requires": "4.5"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-debug-all",
+          "version": {
+            "requires": "5.0.3"
+          }
+        },
+        {
+          "group": "org.lwjgl.lwjgl",
+          "module": "lwjgl",
+          "version": {
+            "requires": "2.9.1"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.0-beta9"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-api",
+          "version": {
+            "requires": "2.0-beta9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "LaunchWrapper-1.1.4.jar",
+          "url": "LaunchWrapper-1.1.4.jar",
+          "size": 18011,
+          "sha512": "dc169f81af8a9485e02490ea3f7ecabfe161c75b4b91affccf0784ba6dd187db2b43f4c3ba16aee72bd135267df479cef4e97720830dbc10f426512b49dcaffd",
+          "sha256": "b4757cc751f67d9c3378d7cdcbbe3d0ff5b1cf54d13d2af7b7f1a5fcc7202c5e",
+          "sha1": "c6f51b5d6a1c45b0c79da103f313877b688ddbac",
+          "md5": "38b3a51f284fa2d7758c192ab8a7115e"
+        }
+      ]
+    }
+  ]
+}
