@@ -29,13 +29,13 @@
     {
       "downloads": {
         "artifact": {
-          "path": "xyz/frish2021/launchwrapper/2.3/launchwrapper-2.3.jar",
+          "path": "xyz/frish2021/LaunchWrapper/1.1.4/launchwrapper-1.1.4.jar",
           "sha1": "5150b9c2951f0fde987ce9c33496e26add1de224",
           "size": 27787,
-          "url": "https://minecraftold.github.io/maven/net/minecraft/launchwrapper/2.3/launchwrapper-2.3.jar"
+          "url": "https://minecraftold.github.io/maven/cn/frish2021/LaunchWrapper/1.1.4/LaunchWrapper-1.1.4.jar"
         }
       },
-      "name": "net.minecraft:launchwrapper:2.3"
+      "name": "xyz.frish2021:LaunchWrapper:1.1.4"
     },
     {
       "downloads": {
